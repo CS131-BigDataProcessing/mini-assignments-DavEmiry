@@ -1,0 +1,126 @@
+    1  passwd
+    2  wget www.github.com
+    3  git clone git@github.com:your/github/repository
+    4  git clone https://github.com/DavEmiry/a1-collab-DavEmiry.git
+    5  git branch username-colab
+    6  git branch davemiry-colab
+    7  pwd
+    8  ls
+    9  cd repository-name
+   10  cd dnuyenfa24
+   11  cd
+   12  ls
+   13  pwd
+   14  git branch davemiry-colab
+   15  cd a1-collab-davemiry
+   16  systemctl enable --now cockpit.socket
+   17  insights-client --register
+   18  ping 172.20.25.9
+   19  git clone https://github.com/DavEmiry/a1-collab-DavEmiry.git
+   20  ls
+   21  pwd
+   22  vim
+   23  vi
+   24  vi test.txt
+   25  ls
+   26  $ cat hello.txt
+   27  cat hello.txt
+   28  ls -l
+   29  1>
+   30  > FILE
+   31  1>>
+   32  >> FILE
+   33  2? FILE
+   34  2> FILE
+   35  ls ../backup
+   36  ls -F
+   37  vi
+   38  echo "me"
+   39  pwd
+   40  echo "pwd"
+   41  echo 'pwd'
+   42  'pwd'
+   43  echo $HOME
+   44  Git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles
+   45  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles
+   46  pwd
+   47  ls
+   48  cd CS131_fa24_datafiles
+   49  ls
+   50  pwd
+   51  cd lec02
+   52  cd Lec02
+   53  ls
+   54  vi goodluck.txt
+   55  % grep -0 'wor' goodluck.txt
+   56  % grep  'wor' goodluck.txt
+   57  ls
+   58  cd..
+   59  cd ..
+   60  ls
+   61  cd Lec02
+   62  grep 'wor' goodluck.txt
+   63  grep 'dred' goodluck.txt
+   64  grep "Good luck, babe " goodluck.txt
+   65  wc -1 goodluck.txt
+   66  wc -l goodluck.txt
+   67  wc goodluck.txt
+   68  wc -w
+   69  wc -w goodluck.txt
+   70  wc -c goodluck.txt
+   71  pwd
+   72  ls
+   73  cd cs131_fa24_datafiles
+   74  cd CS131_fa24_datafiles
+   75  ls
+   76  cd Lec02
+   77  ls
+   78  cd CS131_fa24_datafiles
+   79  ls
+   80  cd Lec02
+   81  ls
+   82  egrep "wor" goodluck.txt
+   83  egrep "dred" goodluck.txt
+   84  egrep "Good luck, babe " goodluck.txt
+   85  wc -l goodluck.txt
+   86  wc -w goodluck.txt
+   87  wc -w goodluck.txt > goodluck.txt
+   88  cat goodluck.txt
+   89  wc -w goodluck.txt > nguyen-D_a2_counts.txt
+   90  cat nguyen-D_a2_counts.txt 
+   91  vi nguyen-D_a2_counts.txt 
+   92  pwd
+   93  cd..
+   94  cd ..
+   95  pwd
+   96  ls 
+   97  rm -r CS131_fa24_datafiles/
+   98  sudo rm -r CS131_fa24_datafiles/
+   99  cd CS131_fa24_datafiles
+  100  ls
+  101  git branch
+  102  cd
+  103  ls
+  104  mv CS131_fa24_datafiles ./trash
+  105  ls
+  106  Git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles 
+  107  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles 
+  108  ls
+  109  cd CS131_fa24_datafiles/
+  110  ls
+  111  cd Lec02
+  112  grep -o "\bwor[a-zA-Z]*\b" goodluck.txt
+  113  grep -o "\bdred[a-zA-Z]*\b" goodluck.txt
+  114  grep "dred" goodluck.txt
+  115  grep "wor" goodluck.txt
+  116  grep "dred" goodluck.txt
+  117  grep "Good luck, babe" goodluck.txt
+  118  grep "Good luck, babe" goodluck.txt | wc -l   # Line count
+  119  grep "Good luck, babe" goodluck.txt | wc -w   # Word count
+  120  grep "Good luck, babe" goodluck.txt | wc -l > <nguyen-d>_a2_counts.txt
+  121  grep "Good luck, babe" goodluck.txt | wc -w >> <nguyen-d>_a2_counts.txt cd ..
+  122  grep "Good luck, babe" goodluck.txt | wc -l > nguyen-d_a2_counts.txt
+  123  grep "Good luck, babe" goodluck.txt | wc -w >> nguyen-d_a2_counts.txt
+  124  cat nguyen-d_a2_counts.txt 
+  125  vi nguyen-d_a2_counts.txt 
+  126  history > nguyen-d_a2_cmds.log
