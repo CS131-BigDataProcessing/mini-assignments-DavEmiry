@@ -1,0 +1,10 @@
+echo "All Airlines:" > airline_inquiry.txt
+awk -F, '{print $4}' airline_stats.csv | sort | uniq >> airline_inquiry.txt
+
+echo -e "\nAirlines with Carrier Delay > 10:" >> airline_inquiry.txt
+awk -F, '$1 > 10 {print $4}' airline_stat.csv | sort | uniq >> airline_inquiry.txt
+
+echo -e "\nAirlines with Carrier Delay > 15:" >> airline_inquiry.txt
+Threshold=15
+awk -F, -v threshold=$Threshold '$1 > threshold {print $4}' airline_stat.csv | sort | uniq >> airline_inquiry.txt
+

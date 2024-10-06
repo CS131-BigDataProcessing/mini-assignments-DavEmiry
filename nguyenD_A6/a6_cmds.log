@@ -1,0 +1,429 @@
+    1  passwd
+    2  wget www.github.com
+    3  git clone git@github.com:your/github/repository
+    4  git clone https://github.com/DavEmiry/a1-collab-DavEmiry.git
+    5  git branch username-colab
+    6  git branch davemiry-colab
+    7  pwd
+    8  ls
+    9  cd repository-name
+   10  cd dnuyenfa24
+   11  cd
+   12  ls
+   13  pwd
+   14  git branch davemiry-colab
+   15  cd a1-collab-davemiry
+   16  systemctl enable --now cockpit.socket
+   17  insights-client --register
+   18  ping 172.20.25.9
+   19  git clone https://github.com/DavEmiry/a1-collab-DavEmiry.git
+   20  ls
+   21  pwd
+   22  vim
+   23  vi
+   24  vi test.txt
+   25  ls
+   26  $ cat hello.txt
+   27  cat hello.txt
+   28  ls -l
+   29  1>
+   30  > FILE
+   31  1>>
+   32  >> FILE
+   33  2? FILE
+   34  2> FILE
+   35  ls ../backup
+   36  ls -F
+   37  vi
+   38  echo "me"
+   39  pwd
+   40  echo "pwd"
+   41  echo 'pwd'
+   42  'pwd'
+   43  echo $HOME
+   44  Git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles
+   45  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles
+   46  pwd
+   47  ls
+   48  cd CS131_fa24_datafiles
+   49  ls
+   50  pwd
+   51  cd lec02
+   52  cd Lec02
+   53  ls
+   54  vi goodluck.txt
+   55  % grep -0 'wor' goodluck.txt
+   56  % grep  'wor' goodluck.txt
+   57  ls
+   58  cd..
+   59  cd ..
+   60  ls
+   61  cd Lec02
+   62  grep 'wor' goodluck.txt
+   63  grep 'dred' goodluck.txt
+   64  grep "Good luck, babe " goodluck.txt
+   65  wc -1 goodluck.txt
+   66  wc -l goodluck.txt
+   67  wc goodluck.txt
+   68  wc -w
+   69  wc -w goodluck.txt
+   70  wc -c goodluck.txt
+   71  pwd
+   72  ls
+   73  cd cs131_fa24_datafiles
+   74  cd CS131_fa24_datafiles
+   75  ls
+   76  cd Lec02
+   77  ls
+   78  cd CS131_fa24_datafiles
+   79  ls
+   80  cd Lec02
+   81  ls
+   82  egrep "wor" goodluck.txt
+   83  egrep "dred" goodluck.txt
+   84  egrep "Good luck, babe " goodluck.txt
+   85  wc -l goodluck.txt
+   86  wc -w goodluck.txt
+   87  wc -w goodluck.txt > goodluck.txt
+   88  cat goodluck.txt
+   89  wc -w goodluck.txt > nguyen-D_a2_counts.txt
+   90  cat nguyen-D_a2_counts.txt 
+   91  vi nguyen-D_a2_counts.txt 
+   92  pwd
+   93  cd..
+   94  cd ..
+   95  pwd
+   96  ls 
+   97  rm -r CS131_fa24_datafiles/
+   98  sudo rm -r CS131_fa24_datafiles/
+   99  cd CS131_fa24_datafiles
+  100  ls
+  101  git branch
+  102  cd
+  103  ls
+  104  mv CS131_fa24_datafiles ./trash
+  105  ls
+  106  Git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles 
+  107  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles 
+  108  ls
+  109  cd CS131_fa24_datafiles/
+  110  ls
+  111  cd Lec02
+  112  grep -o "\bwor[a-zA-Z]*\b" goodluck.txt
+  113  grep -o "\bdred[a-zA-Z]*\b" goodluck.txt
+  114  grep "dred" goodluck.txt
+  115  grep "wor" goodluck.txt
+  116  grep "dred" goodluck.txt
+  117  grep "Good luck, babe" goodluck.txt
+  118  grep "Good luck, babe" goodluck.txt | wc -l   # Line count
+  119  grep "Good luck, babe" goodluck.txt | wc -w   # Word count
+  120  grep "Good luck, babe" goodluck.txt | wc -l > <nguyen-d>_a2_counts.txt
+  121  grep "Good luck, babe" goodluck.txt | wc -w >> <nguyen-d>_a2_counts.txt cd ..
+  122  grep "Good luck, babe" goodluck.txt | wc -l > nguyen-d_a2_counts.txt
+  123  grep "Good luck, babe" goodluck.txt | wc -w >> nguyen-d_a2_counts.txt
+  124  cat nguyen-d_a2_counts.txt 
+  125  vi nguyen-d_a2_counts.txt 
+  126  history > nguyen-d_a2_cmds.log
+  127  mkdir nguyen-d_A2
+  128  mv nguyen-d_a2_counts.txt nguyen-d_a2_cmds.log nguyen-d_A2/
+  129  cat nguyen-d
+  130  cat nguyen-d_a2_counts.txt
+  131  cd ..
+  132  ls
+  133  cd Lec02
+  134  ls
+  135  cd nguyen-d_A2
+  136  ls
+  137  cat nguyen-d_a2_counts.txt
+  138  cat nguyen-d_a2_cmds.log
+  139  pwd
+  140  clear
+  141  git status
+  142  git log
+  143  ls
+  144  git remote -v
+  145  pwd
+  146  git remote remove origin
+  147  git remote -v
+  148  git remote add origin https://github.com/CS131-BigDataProcessing/mini-assignments-DavEmiry.git
+  149  git remote -v
+  150  git status
+  151  ls
+  152  git add nguyen-d_a2_cmds.log  nguyen-d_a2_counts.txt
+  153  git status
+  154  git commit -m "completed assignment"
+  155    git config --global user.email "davisnguyen0508@gmail.com"
+  156  git config --global user.name "DavEmiry"
+  157  git commit -m "completed assignment"
+  158  git log
+  159  git push
+  160  git push --set-upstream origin main
+  161  git pull origin main
+  162  git pull origin main --allow-unrelated-histories
+  163  git status
+  164  vi ../../LICENSE
+  165  vi ../../README.md
+  166  git add ../../LICENSE ../../README.md
+  167  git status
+  168  git commit
+  169  git push
+  170  git push --set-upstream origin main
+  171  ls -s
+  172  $vi ~/.bash_profile
+  173  vi ~/.bash_profile
+  174  vi ~/.bashrc
+  175  $ source ~/.bashrc
+  176  source ~/.bashrc
+  177  mkdir nguyend_A4_shell
+  178  ls
+  179  cd nguyend_A4_shell
+  180  vi class_practice.sh
+  181  sh class_practice.sh Davis Nguyen
+  182  vi class_practice.sh
+  183  sh class_practice.sh Davis Nguyen
+  184  vi class_practice.sh
+  185  sh class_practice.sh Davis Nguyen
+  186  vi class_practice.sh
+  187  sh class_practice.sh Davis Nguyen
+  188  vi class_practice.sh
+  189  sh class_practice.sh Davis Nguyen
+  190  vi ~/.bash_profile
+  191  vi ~/.bashrc
+  192  source ~/.bashrc
+  193  cd ..
+  194  mkdir nguyenD_A4
+  195  cd nguyenD_A4
+  196  vi echoing.sh
+  197  who
+  198  date
+  199  $HOME
+  200  $USER
+  201  $user
+  202  $dnguyenfa
+  203  vi show_system_info.sh
+  204  chmod +x show_system_info.sh
+  205  ./show_system_info.sh
+  206  clear
+  207  ./show_system_info.sh
+  208  vi show_money.sh
+  209  vi show_money.sh 
+  210  chmod +x show_money.sh
+  211  ./show_system_info.sh
+  212  ./show_money.sh
+  213  ./show_money.sh Davis 200
+  214  sh show_money.sh Davis 200
+  215  sh show_money.sh Davis
+  216  vi show_money.sh
+  217  vi show_money.sh Davis 200
+  218  ls
+  219  sh show_money.sh Davis 200
+  220  ls
+  221  cd nguyenD_A4
+  222  ls
+  223  vi echoing.sh
+  224  chmod +x echoing.sh
+  225  ./echoing.sh Davis 20
+  226  git init
+  227  git add nguyenD_A4
+  228  pwd
+  229  ls
+  230  git clone https://github.com/CS131-BigDataProcessing/mini-assignments-DavEmiry.git
+  231  cd mini-assignments-DavEmiry
+  232  ls
+  233  git add nguyenD_A4
+  234  ls
+  235  pwd
+  236  ls
+  237  cd desktop
+  238  ls
+  239  cd nguyenD_A4
+  240  pwd
+  241  git clone https://github.com/CS131-BigDataProcessing/mini-assignments-DavEmiry.git
+  242  cd mini-assignments-DavEmiry
+  243  ls
+  244  git status
+  245  mv nguyenD_A4
+  246  ls
+  247  pwd
+  248  cd ..
+  249  pwd
+  250  ls
+  251  pwd
+  252  ls
+  253  cd mini-assignments-DavEmiry/
+  254  ls
+  255  cd.. 
+  256  cd ..
+  257  cd https://github.com/CS131-BigDataProcessing/mini-assignments-DavEmiry.git
+  258  cd ..
+  259  pwd
+  260  ls
+  261  cd CS131_fa24_datafiles
+  262  ls
+  263  git add nguyenD_A4
+  264  cd..
+  265  cd ..
+  266  pwd
+  267  ls
+  268  cd FA24_CS131_Jessica/
+  269  ls
+  270  cd dnguyenfa24
+  271  ls
+  272  git clone https://github.com/CS131-BigDataProcessing/mini-assignments-DavEmiry.git
+  273  ls
+  274  mv nguyenD_A4 mini-assignments-DavEmiry
+  275  ls
+  276  cd mini-assignemnts-DavEmiry
+  277  cd mini-assignments-DavEmiry/
+  278  ls
+  279  git add NguyenD_A4
+  280  git add .
+  281  git add NguyenD_A4
+  282  git add nguyenD_A4
+  283  pwd
+  284  scp -r dnguyenfa24@vpn-server:/mnt/scratch/FA24_CS131_Jessica/dnguyenfa24/nguyenD_A4 /local/path/to/mini-assignments-DavEmiry
+  285  pwd
+  286  cd ..
+  287  pwd
+  288  ls
+  289  cd mini-assignments-DavEmiry/
+  290  ls
+  291  cd nguyenD_A4
+  292  ls
+  293  rm mini-assignments-DavEmiry/
+  294  rmdir mini-assignments-DavEmiry/
+  295  rm -r mini-assignments-DavEmiry/
+  296  ls
+  297  cd ..
+  298  git add nguyenD_A4
+  299  git status
+  300  git add nguyenD_A4
+  301  git add nguyenD_A4/
+  302  cd ..
+  303  ls
+  304  cd mini-assignments-DavEmiry/
+  305  ls
+  306  cd nguyenD_A4/
+  307  ls
+  308  cd ..
+  309  git add nguyenD_A4
+  310  git commit -m "Add Nguyen_A4 directory and echoing.sh script for Assignment 4"
+  311  git add .
+  312  git commit -a
+  313  git add nguyenD_A4/
+  314  ls nguyenD_A4/
+  315  git add nguyenD_A4/
+  316  git submodule
+  317  chmod -R u+rw nguyenD_A4
+  318  ls nguyenD_A4/
+  319  git add nguyenD_A4/
+  320  chmod -R u+rw nguyenD_A4/
+  321  rm -rf nguyenD_A4/.git
+  322  git add nguyenD_A4/
+  323  git commit -m "Add nguyenD_A4 directory and scripts for Assignment 4"
+  324  git push origin main
+  325  mkdir nguyenD_A5
+  326  pwd
+  327  ls
+  328  cd nguyenD_A5
+  329  ls
+  330  vi age.sh
+  331  bash age.sh 5
+  332  bash age.sh 17
+  333  bash age.sh 48
+  334  bash age.sh 72
+  335  vi temperature.sh
+  336  bash temperature.sh 62
+  337  bash temperature.sh 5
+  338  bash temperature.sh 97
+  339  bash temperature.sh 73
+  340  cd ..
+  341  ls
+  342  cd mini-assignments-DavEmiry/
+  343  git add nguyenD_A5
+  344  git add nguyenD_A%
+  345  git add nguyenD_A5
+  346  ls
+  347  git add nguyenD_A5
+  348  ls nguyenD_A5/
+  349  ls nguyenD_A5
+  350  mv ~/nguyenD_A5 ./  # Moves the nguyenD_A5 directory into the repo
+  351  ls
+  352  git add nguyenD_A5/age.sh nguyenD_A5/temp.sh
+  353  git add nguyenD_A5
+  354  git commit -m "Add nguyenD_A5 directory with age.sh and temp.sh for Assignment 5"
+  355  git push origin main  # Replace 'main' with the correct branch name if needed
+  356  ls
+  357  git remote -v
+  358  ls
+  359  cd CS131_fa24_datafiles
+  360  ls
+  361  cd..
+  362  cd
+  363  ls
+  364  cd CS131_fa24_datafiles/
+  365  ls
+  366  git pull
+  367  ls
+  368  cd
+  369  ls
+  370  cd CS131_fa24_datafiles/
+  371  ls
+  372  git remove -v
+  373  git remote -v
+  374  cd
+  375  git clone https://github.com/DavEmiry/CS131_fa24_datafiles.git
+  376  ls
+  377  cd CS131_fa24_datafiles/
+  378  git pull
+  379  ls
+  380  git remote -v
+  381  git remote remove origin
+  382  git remote -v
+  383  git remote add origin https://github.com/DavEmiry/CS131_fa24_datafiles.git
+  384  ls
+  385  cd
+  386  ls
+  387  mv -r CS131_fa24_datafiles ./temp 
+  388  mv CS131_fa24_datafiles ./temp 
+  389  ls
+  390  git clone https://github.com/DavEmiry/CS131_fa24_datafiles.git
+  391  ls
+  392  cd CS131_fa24_datafiles/
+  393  ls
+  394  cd lec08
+  395  cd Lec08
+  396  ls
+  397  awk -F, '{print $2}' airline_stat.csv | sort | uniq
+  398  ls
+  399  awk -F, '{print $2}' airline_stat.csv | sort | uniq
+  400  awk -F, '{print $2}' airline_stats.csv | sort | uniq
+  401  awk -F, '$5 > 10 {print $2}' airline_stats.csv | sort | uniq
+  402  Threshold=15
+  403  awk -F, -v threshold=$Threshold '$5 > threshold {print $2}' airline_stats.csv | sort | uniq
+  404  awk -F, '$1 > 12 {print $4}' airline_stats.csv
+  405  awk -F, '$5 > 10 {print $2}' airline_stats.csv
+  406  awk -F, '$1 > 12 {print $4}' airline_stats.csv
+  407  awk -F, '$5 > 10 {print $2}' airline_stats.csv
+  408  awk -F, '$1 > 12 {print $4}' airline_stats.csv
+  409  awk -F, '$5 > 10 {print $2}' airline_stats.csv | sort | uniq
+  410  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+  411  awk -F, '{print $4}' airline_stats.csv | sort | uniq
+  412  Threshold=15
+  413  awk -F, -v threshold=$Threshold '$1 > threshold {print $4}' airline_stats.csv | sort | uniq
+  414  clear
+  415  awk -F, '{print $4}' airline_stats.csv | sort | uniq
+  416  awk -F, '$1 > 10 {print $4}' airline_stat.csv | sort | uniq
+  417  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+  418  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort 
+  419  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+  420  Threshold=15
+  421  awk -F, -v threshold=$Threshold '$1 > threshold {print $4}' airline_stats.csv | sort | uniq
+  422  awk -F, -v threshold=$Threshold '$1 > threshold {print $4}' airline_stats.csv | sort 
+  423  awk -F, '{print $4}' airline_stats.csv | sort | uniq
+  424  awk -F, '$1 > 10 {print $4}' airline_stat.csv | sort | uniq
+  425  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+  426  Threshold=15
+  427  awk -F, -v threshold=$Threshold '$1 > threshold {print $4}' airline_stats.csv | sort | uniq
+  428  vi airline_inquiry.txt
+  429  history > a6_cmds.log
